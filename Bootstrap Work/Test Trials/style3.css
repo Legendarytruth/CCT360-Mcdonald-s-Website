@@ -1,0 +1,171 @@
+body{
+	padding-top:0;
+	margin-top:0;
+}
+nav{
+	border: 0;
+	background-color:rgba(0,0,0,0.8) !important;
+}
+
+.navbar_image{
+  background-image: url('../images/McD_Logo.png');
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 20px;
+  left: 100px;
+  z-index: 1051;
+}
+
+.navbar_top{
+	padding-left: 35px;
+	padding-bottom: 60px;
+	position: relative;
+}
+nav .navbar_top a{
+	float: right;
+	color: white !important;
+	font-size: 13px;
+	padding: 0px;
+	padding-bottom:21px;
+	padding-left: 85px;
+	z-index:1051;
+}
+
+nav .navbar_top .ntl{
+	padding-top:8px;
+}
+
+nav .navbar_top .nbl{
+	float: right;
+	padding:0px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+nav .navbar_top .sb{
+	border-right: 1px solid white;
+}
+
+.navbar{
+	padding: 0 !important;
+}
+
+.navbar_bottom .nav-link{
+	text-align: center;
+	color: white !important;
+	font-weight: bold;
+	margin: 0;
+	font-size: 15px;
+	padding-left: 75px !important;
+}
+
+.navbar_bottom{
+	box-sizing: border-box !important;
+	left: 0;
+	right:0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 120px;
+	padding-top: 66px;
+	margin-top:15px;
+}
+
+.navbar_bottom a{
+	padding:0;
+	
+}
+
+.dropdown.open {
+  position: static;
+  width: 100% !important;
+}
+.dropdown-menu{
+	box-sizing: border-box;
+	display: block;
+	width: 100% !important;
+	background-color: black !important;
+}
+.dropdown.open .dropdown-menu {
+  display: table !important;
+  border-radius: 0px;
+  width: 100% !important;
+}
+
+.dropdown-menu > li {
+	float: left;
+  display: table-cell;
+  background-color:black !important;
+}
+
+.menu1{
+	float: left;
+}
+
+.menu2{
+}
+
+
+
+.jumbotron{
+	margin:0;
+	padding:0;
+}
+
+.col-md-6{
+	padding:0 !important;
+}
+
+.card{
+	border: none;
+}
+
+.hero_text{
+	top: 35%;
+	left:25%;
+    position: absolute;
+    color: white;
+	text-align:center;
+}
+
+.hero_button{
+	background-color:red;
+	border-radius:15px;
+	color: white;
+	font-size: 13px;
+	padding: 5px 20px;
+	border: none;
+}
+
+.ffootert:hover{
+	text-decoration: none;
+}
+
+.ffooter{
+	color: white;
+}
+
+.ffooter:hover{
+	color:white;
+	text-decoration: none;
+}
+
+.footertext{
+	line-height: 30px;
+}
+
+.2footer{
+	background-color: black !important;
+}
+
+@media only screen and (max-width:992px) {
+	.navbar_image{
+		display: block;
+		margin-left: 50%;
+		margin-right: 50%;
+		width:10%;
+	}
+	
+}
